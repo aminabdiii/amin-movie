@@ -1,18 +1,6 @@
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import { useEffect } from 'react';
-import Swal from 'sweetalert2';
-
-function dubdevModal(event) {
-  event.preventDefault();
-  Swal.fire({
-    title: 'dubdev.ir',
-    text: `سلام و درود خدمت عزیزان دل.
-    بنده جی اس رو از دوره جاوا اسکریپت جوناس با دوبله دوستمون آقای مهرشاد چشم خاوری عزیز آموختم. خیلی عالی بود. و با توجه به رضایتی که از نحوه بیان و دوبله مهرشاد جان داشتم, تصمیم گرفتم دوره ری اکت ایشون رو نیز تهیه کنم. هر دو این دوره ها عالی و پروژه محور هستن. مهرشاد جان, ازت ممنونیم بابت دوبله ها.
-    `,
-    confirmButtonText: '<a href="https://dubdev.ir">رفتن به سایت</a>',
-  });
-}
 
 function HeroSection() {
   useEffect(() => {
@@ -46,13 +34,6 @@ function HeroSection() {
             className="flex items-center justify-center gap-x-1 bg-[#da47c2c2] max-w-[190px] max-xxs:text-sm max-vxs:text-xs text-center p-2 text-white rounded-full uppercase">
             get watching
             <i className="bi bi-arrow-bar-right text-xl pt-1"></i>
-          </a>
-          <a
-            href="#"
-            onClick={dubdevModal}
-            className="flex items-center justify-center gap-x-1 bg-violet-500 max-w-[150px] max-xxs:text-sm max-vxs:text-xs text-center p-2 text-white uppercase rounded-full">
-            dubdev.ir
-            <i className="bi bi-graph-up text-lg pt-1"></i>
           </a>
         </div>
       </div>
