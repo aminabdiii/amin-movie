@@ -23,7 +23,7 @@ function HeroSection() {
             className="absolute left-0 -bottom-2 w-[380px] max-lg:max-w-[266px] h-2 max-lg:hidden select-none"
           />
         </h1>
-        <span className="text-xs xxs:text-sm xs:text-base lg:text-lg leading-6 lg:leading-8 text-slate-600">
+        <span className="text-xs xxs:text-sm xs:text-base lg:text-lg !leading-6 xs:!leading-7 lg:leading-8 text-slate-600">
           Discover AminMovie, where you can enjoy a wide range of movies and
           series anytime, anywhere. With an easy-to-use interface and
           personalized recommendations, finding your next favorite is a breeze.
